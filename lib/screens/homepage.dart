@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
               ),
               validator: (value) {
                 if (!value.contains('jtmoney')) {
-                  return 'Please enter a valid passcode';
+                  return 'Please enter a valid passcode. Hint: jt\$';
                 }
                 return null;
               },
